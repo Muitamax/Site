@@ -1,0 +1,106 @@
+/* Styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #11b4a7; /* Light purple background */
+}
+
+header {
+    background-color: #6a1b9a; /* Purple background */
+    padding: 1em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #bb86fc; /* Light purple text on hover */
+}
+
+#featured-section {
+    background-color: #ffffff; /* White background */
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#featured-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#featured-section li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#featured-section a {
+    color: #1e88e5; /* Blue text */
+    text-decoration: none;
+}
+
+#featured-section a:hover {
+    color: #bb86fc; /* Light purple text on hover */
+}
+
+.expert-insights {
+    background-color: #ffffff; /* White background */
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expert-insights ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.expert-insights li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.expert-insights strong {
+    font-weight: bold;
+    color: #6a1b9a; /* Purple text */
+}
+
+#market-analysis {
+    background-color: #ffffff; /* White background */
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#market-analysis table {
+    margin-top: 20px;
+    border: 1px solid #6a1b9a; /* Purple border */
+}
+
+#market-analysis th, #market-analysis td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#market-analysis th {
+    background-color: #6a1b9a; /* Purple background */
+    color: #ffffff; /* White text */
+}
+
+#market-analysis td {
+    background-color: #f0f0f5; /* Light purple background */
+}
